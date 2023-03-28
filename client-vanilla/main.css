@@ -1,0 +1,50 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+header,
+main {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  border: 1px solid #000000;
+}
+
+header input {
+  flex-grow: 1;
+  border: none;
+  border-right: 1px solid #000000;
+}
+
+header button {
+  border: none;
+}
+
+main div.container {
+  display: flex;
+}
+
+main div.container span {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+button {
+  border: 1px solid #000000;
+}
+
+:focus {
+  background-color: #add7e6;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + span.realcheck {
+  color: red;
+}
